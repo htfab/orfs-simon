@@ -1,0 +1,95 @@
+OpenROAD v2.0-14511-gedb4e7e37 
+Features included (+) or not (-): +Charts +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 4 thread(s).
+global_route -guide_file /work/results/ihp-sg13g2/ttsimon/base/route.guide -congestion_report_file /work/reports/ihp-sg13g2/ttsimon/base/congestion.rpt -congestion_iterations 30 -congestion_report_iter_step 5 -verbose
+[INFO GRT-0020] Min routing layer: Metal2
+[INFO GRT-0021] Max routing layer: Metal5
+[INFO GRT-0022] Global adjustment: 0%
+[INFO GRT-0023] Grid origin: (0, 0)
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0088] Layer Metal1  Track-Pitch = 0.4790  line-2-Via Pitch: 0.3650
+[INFO GRT-0088] Layer Metal2  Track-Pitch = 0.4200  line-2-Via Pitch: 0.4100
+[INFO GRT-0088] Layer Metal3  Track-Pitch = 0.4790  line-2-Via Pitch: 0.4100
+[INFO GRT-0088] Layer Metal4  Track-Pitch = 0.4200  line-2-Via Pitch: 0.4100
+[INFO GRT-0088] Layer Metal5  Track-Pitch = 3.4050  line-2-Via Pitch: 0.4100
+[INFO GRT-0019] Found 18 clock nets.
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 19
+[INFO GRT-0003] Macros: 0
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0004] Blockages: 2
+
+[INFO GRT-0053] Routing resources analysis:
+          Routing      Original      Derated      Resource
+Layer     Direction    Resources     Resources    Reduction (%)
+---------------------------------------------------------------
+Metal1     Vertical            0             0          0.00%
+Metal2     Horizontal      11595         10314          11.05%
+Metal3     Vertical        10551          9335          11.52%
+Metal4     Horizontal      11595         10512          9.34%
+Metal5     Vertical         1382           632          54.27%
+---------------------------------------------------------------
+
+[INFO GRT-0101] Running extra iterations to remove overflow.
+[INFO GRT-0197] Via related to pin nodes: 8690
+[INFO GRT-0198] Via related Steiner nodes: 180
+[INFO GRT-0199] Via filling finished.
+[INFO GRT-0111] Final number of vias: 10898
+[INFO GRT-0112] Final usage 3D: 39633
+
+[INFO GRT-0096] Final congestion report:
+Layer         Resource        Demand        Usage (%)    Max H / Max V / Total Overflow
+---------------------------------------------------------------------------------------
+Metal1               0             0            0.00%             0 /  0 /  0
+Metal2           10314          3015           29.23%             0 /  0 /  0
+Metal3            9335          3188           34.15%             0 /  0 /  0
+Metal4           10512           695            6.61%             0 /  0 /  0
+Metal5             632            41            6.49%             0 /  0 /  0
+---------------------------------------------------------------------------------------
+Total            30793          6939           22.53%             0 /  0 /  0
+
+[INFO GRT-0018] Total wirelength: 77432 um
+[INFO GRT-0014] Routed nets: 1610
+Perform buffer insertion...
+[INFO RSZ-0058] Using max wire length 16273um.
+Placement Analysis
+---------------------------------
+total displacement          0.0 u
+average displacement        0.0 u
+max displacement            0.0 u
+original HPWL           45837.7 u
+legalized HPWL          45837.7 u
+delta HPWL                    0 %
+
+Repair setup and hold violations...
+[INFO RSZ-0033] No hold violations found.
+Placement Analysis
+---------------------------------
+total displacement          0.0 u
+average displacement        0.0 u
+max displacement            0.0 u
+original HPWL           45837.7 u
+legalized HPWL          45837.7 u
+delta HPWL                    0 %
+
+Repair antennas...
+[INFO GRT-0012] Found 3 antenna violations.
+[INFO GRT-0015] Inserted 6 diodes.
+[INFO GRT-0012] Found 0 antenna violations.
+[INFO ANT-0002] Found 0 net violations.
+[INFO ANT-0001] Found 0 pin violations.
+Estimate parasitics...
+Report metrics stage 5, global route...
+Warning: There are 10 unconstrained endpoints.
+
+==========================================================================
+global route report_design_area
+--------------------------------------------------------------------------
+Design area 23277 u^2 68% utilization.
+[INFO FLW-0007] clock core_clock period 10.400001
+[INFO FLW-0008] Clock core_clock period 3.119
+[INFO FLW-0009] Clock core_clock slack 7.117
+[INFO FLW-0011] Path endpoint count 388
+Elapsed time: 0:04.69[h:]min:sec. CPU time: user 7.07 sys 0.48 (161%). Peak memory: 186532KB.

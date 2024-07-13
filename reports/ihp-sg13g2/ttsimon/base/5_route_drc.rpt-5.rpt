@@ -1,0 +1,111 @@
+  violation type: Short
+    srcs: net:_0081_ net:net92 
+    bbox = ( 20.06, 214.1 ) - ( 20.26, 214.3 ) on Layer Metal2
+  violation type: Short
+    srcs: net:net91 net:uio_oe[4] 
+    bbox = ( 14.78, 209.06 ) - ( 14.98, 209.26 ) on Layer Metal2
+  violation type: Short
+    srcs: net:_0777_ net:_1094_ 
+    bbox = ( 28.7, 210.32 ) - ( 28.9, 210.52 ) on Layer Metal2
+  violation type: Short
+    srcs: net:_0339_ net:simon1.score1.tens\[3\] 
+    bbox = ( 31.58, 206.96 ) - ( 31.78, 207.16 ) on Layer Metal2
+  violation type: Short
+    srcs: net:_0341_ net:_1091_ 
+    bbox = ( 25.82, 209.06 ) - ( 26.02, 209.26 ) on Layer Metal2
+  violation type: Short
+    srcs: net:_0340_ net:_1097_ 
+    bbox = ( 32.06, 205.28 ) - ( 32.26, 205.48 ) on Layer Metal2
+  violation type: Short
+    srcs: net:_0341_ net:_0367_ 
+    bbox = ( 25.82, 208.64 ) - ( 26.02, 208.84 ) on Layer Metal2
+  violation type: Short
+    srcs: net:_0366_ net:_1094_ 
+    bbox = ( 28.7, 209.9 ) - ( 28.9, 210.1 ) on Layer Metal2
+  violation type: Short
+    srcs: net:net92 net:uio_oe[6] 
+    bbox = ( 20.06, 214.94 ) - ( 20.26, 215.14 ) on Layer Metal2
+  violation type: Short
+    srcs: net:net92 net:simon1.play1.tick_counter\[7\] 
+    bbox = ( 29.18, 217.04 ) - ( 29.375, 217.24 ) on Layer Metal2
+  violation type: Short
+    srcs: net:net100 net:_1150_ 
+    bbox = ( 28.7, 218.3 ) - ( 28.9, 218.5 ) on Layer Metal2
+  violation type: Metal Spacing
+    srcs: net:net4 net:_1018_ 
+    bbox = ( 30.335, 217.04 ) - ( 30.53, 217.24 ) on Layer Metal2
+  violation type: Short
+    srcs: net:simon1.play1.freq\[6\] net:net164 
+    bbox = ( 18.14, 215.36 ) - ( 18.34, 215.56 ) on Layer Metal3
+  violation type: Short
+    srcs: net:_0314_ net:uio_out[5] 
+    bbox = ( 33.5, 215.36 ) - ( 33.7, 215.56 ) on Layer Metal3
+  violation type: Metal Spacing
+    srcs: net:simon1.tick_counter\[0\] net:simon1.tick_counter\[1\] 
+    bbox = ( 32.285, 126.73 ) - ( 32.305, 126.74 ) on Layer Metal2
+  violation type: Short
+    srcs: net:simon1.tick_counter\[0\] net:simon1.tick_counter\[1\] 
+    bbox = ( 32.3, 126.74 ) - ( 32.305, 126.94 ) on Layer Metal2
+  violation type: Short
+    srcs: net:VSS net:uo_out[1] 
+    bbox = ( 91.44, 224.555 ) - ( 91.64, 225.76 ) on Layer Metal5
+  violation type: Short
+    srcs: net:VDD net:ui_in[3] 
+    bbox = ( 130.08, 224.555 ) - ( 130.28, 225.76 ) on Layer Metal5
+  violation type: Metal Spacing
+    srcs: net:net67 
+    bbox = ( 44.715, 118.75 ) - ( 44.915, 118.925 ) on Layer Metal2
+  violation type: Metal Spacing
+    srcs: net:net67 
+    bbox = ( 44.625, 118.75 ) - ( 44.915, 118.925 ) on Layer Metal2
+  violation type: Metal Spacing
+    srcs: net:net67 
+    bbox = ( 44.54, 118.75 ) - ( 44.915, 118.925 ) on Layer Metal2
+  violation type: Short
+    srcs: net:_0338_ net:net12 
+    bbox = ( 41.66, 214.94 ) - ( 41.86, 215.14 ) on Layer Metal2
+  violation type: Metal Spacing
+    srcs: net:_0302_ 
+    bbox = ( 36.86, 213.46 ) - ( 37.06, 213.655 ) on Layer Metal2
+  violation type: Metal Spacing
+    srcs: net:_0302_ 
+    bbox = ( 36.86, 213.46 ) - ( 37.06, 213.47 ) on Layer Metal2
+  violation type: Metal Spacing
+    srcs: net:_0302_ 
+    bbox = ( 36.835, 213.46 ) - ( 37.06, 213.655 ) on Layer Metal2
+  violation type: Metal Spacing
+    srcs: net:_0302_ 
+    bbox = ( 36.62, 213.46 ) - ( 37.06, 213.655 ) on Layer Metal2
+  violation type: Metal Spacing
+    srcs: net:_0302_ 
+    bbox = ( 36.62, 213.46 ) - ( 37.06, 213.47 ) on Layer Metal2
+  violation type: Metal Spacing
+    srcs: net:_0302_ 
+    bbox = ( 36.835, 213.46 ) - ( 37.06, 213.47 ) on Layer Metal2
+  violation type: Metal Spacing
+    srcs: net:_0292_ net:_0301_ 
+    bbox = ( 39.635, 214.015 ) - ( 39.685, 214.1 ) on Layer Metal2
+  violation type: Short
+    srcs: net:_0209_ net:_0338_ 
+    bbox = ( 37.1, 213.68 ) - ( 37.3, 213.88 ) on Layer Metal3
+  violation type: Short
+    srcs: net:_0209_ net:_0301_ 
+    bbox = ( 40.22, 213.77 ) - ( 40.27, 213.88 ) on Layer Metal3
+  violation type: Short
+    srcs: net:_0209_ net:_0292_ 
+    bbox = ( 39.26, 213.68 ) - ( 39.46, 213.88 ) on Layer Metal3
+  violation type: Short
+    srcs: net:_0209_ net:_0301_ 
+    bbox = ( 40.07, 213.77 ) - ( 40.27, 213.88 ) on Layer Metal3
+  violation type: Metal Spacing
+    srcs: net:VDD net:uio_out[6] 
+    bbox = ( 55.38, 224.6 ) - ( 55.56, 224.8 ) on Layer Metal5
+  violation type: Metal Spacing
+    srcs: net:VDD net:uio_out[6] 
+    bbox = ( 55.38, 224.6 ) - ( 55.56, 225.76 ) on Layer Metal5
+  violation type: Metal Spacing
+    srcs: net:VDD net:uio_out[7] 
+    bbox = ( 53, 224.6 ) - ( 53.18, 224.8 ) on Layer Metal5
+  violation type: Metal Spacing
+    srcs: net:VDD net:uio_out[7] 
+    bbox = ( 53, 224.6 ) - ( 53.18, 225.76 ) on Layer Metal5

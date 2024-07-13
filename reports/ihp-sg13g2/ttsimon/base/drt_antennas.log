@@ -1,0 +1,8 @@
+Net: _0109_
+  Pin:   simon1.play1.tick_counter\[11\]$_SDFFE_PN0N_/D (sg13g2_dfrbp_1)
+    Layer: Metal4
+      Cumulative area ratio:  232.86
+      Required ratio:  200.00 (Cumulative area) (VIOLATED)
+
+
+
